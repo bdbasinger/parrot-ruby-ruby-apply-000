@@ -2,12 +2,12 @@
 # returns the phrase
 
 def parrot(str)
-  if str.length == 0 
-    puts "Squawk!"
-    return "Squawk!"
-  else
+  if str != "Squawk!" 
     puts str
     return str
+  else
+    puts "Squawk!"
+    return "Squawk!"
   end
 end
 
